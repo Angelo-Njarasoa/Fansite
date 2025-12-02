@@ -1,8 +1,30 @@
 .top-header{
     height: 1;
-    background-color:#146b38
+    
 }
 body{
     margin: 0cm;
     padding: 0cm;
+}
+#page2{
+  position: absolute; /* ou absolute selon ce que tu veux */
+  bottom: 100;
+  right: 0;
+}
+#fond{
+    top:0;
+    left: 0;
+    position: fixed;
+    width:100vw ;
+    height:100vh;
+    z-index:-2; 
+    object-fit:cover ;
+    
+}
+p{
+    font-weight:bold;
+    color: rgb(0, 2, 1);
+    text-align:justify;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
 }
