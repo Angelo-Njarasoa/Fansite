@@ -1,0 +1,11 @@
+video-wrapper{
+    text-align:center;
+    height: 200px;
+    border-radius: 10px;
+    border:none;  
+}
+h1{
+    font-family: Arial,sans-serif;
+    padding:0;
+    text-align: center;
+}
