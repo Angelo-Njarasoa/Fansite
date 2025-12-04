@@ -1,11 +1,33 @@
-video-wrapper{
-    text-align:center;
-    height: 200px;
+video{
+    height:500px;
     border-radius: 10px;
     border:none;  
+    flex-direction:column;
+    margin:0;
+    padding:0;
 }
 h1{
     font-family: Arial,sans-serif;
     padding:0;
     text-align: center;
+    color: aliceblue;
 }
+a{
+    text-decoration:none;
+    color:rgb(220, 212, 212);
+    font-size:20px;
+    font-weight:bold;
+
+}
+#fond{
+    top:0;
+    left: 0;
+    position: fixed;
+    width:100vw ;
+    height:100vh;
+    z-index:-2; 
+    object-fit:cover ;
+   backdrop-filter: blur(80px);
+    -webkit-backdrop-filter: blur(80px);
+}
+
